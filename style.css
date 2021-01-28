@@ -1,4 +1,14 @@
 .example2 {
   margin: 40px auto;
-  width: 400px;
+  width: 800px;
 }
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  padding: 20px;
+  
+}
+
