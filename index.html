@@ -2,30 +2,35 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Clipboard.js</title>
+  <title>CodePen - Clipboard.js - Copy text from another element</title>
   <link rel='stylesheet' href='https://clipboardjs.com/bower_components/primer-css/css/primer.css'>
 <link rel='stylesheet' href='https://clipboardjs.com/assets/styles/main.css'><link rel="stylesheet" href="./style.css">
+<!-- <link rel="stylesheet" href="https://nathanpuls.github.io/fwdng/css/skeleton.css"> -->
 
 </head>
 <body>
-  <br><br>
-  <center>
-  <a href='http://fwdng.com/copy'>
-  fwdng.com/copy
-    </a></center>
-<!-- partial:index.partia -->
+<!-- partial:index.partial.html -->
+<center><h1>
+<a href='http://fwdng.com/copy'>fwdng.com/copy</a>
+</h1></center>
 <div class="example2">
   <div class="input-group">
-  <input id="foo" type="text" value="">
+  <input id="foo" type="text" value="" style="font-size: 30px;">
     <span class="input-group-button">
       <button class="btn" type="button" data-clipboard-demo="" data-clipboard-target="#foo">
-        <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
+        <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="36" alt="Copy to clipboard">
       </button>
     </span>
   </div>
 </div>
-  
-  
+
+<div class="fixed">
+  <a href="http://fwdng.com" style="text-decoration:none">
+  <img src="https://www.svgrepo.com/show/20195/play-button.svg" width='36' alt="home">
+</a>
+  </div>
+
+
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js'></script><script  src="./script.js"></script>
 
